@@ -181,13 +181,13 @@ header {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     header {
         padding: 25px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .nautta {
         top: 10px;
         left: 5px;
@@ -197,7 +197,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .search-box {
         top: 13px;
         height: 25px;
@@ -208,7 +208,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .loupe {
         width: 15px;
         height: 15px;
@@ -216,14 +216,14 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .search-text {
         font-size: 8px;
         padding-right: 10px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .perfil {
         top: 9px;
         width: 15px;
@@ -232,7 +232,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .entrar {
         font-size: 8px;
         top: 24px;
@@ -240,13 +240,13 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .app, .baixe {
         display: none;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .carrinho {
         left: 148px;
         top: 9px;
