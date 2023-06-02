@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.nautta {
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 38px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+.search-box {
+    position: absolute;
+    top: 20px;
+    left: 21%;
+    right: 32.50%;
+
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+}
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+}
+
+.perfil {
+    position: absolute;
+    left: 71%;
+    top: 3.10%;
+}
+
+.entrar {
+    color: white;
+    position: absolute;
+    left: 74%;
+    top: 5.50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.app {
+    position: absolute;
+    left: 81.60%;
+    top: 4.10%;
+}
+
+.baixe {
+    color: white;
+    position: absolute;
+    left: 84%;
+    top: 5.50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.carrinho {
+    position: absolute;
+    left: 95%;
+    top: 4%;
+}
+
+
+/* TELA DE TABLET */
+
+
+@media screen and (max-width: 1024px) {
+    .nautta {
+        position: absolute;
+        left: 23px;
+        top: 13px;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .baixe, .entrar {
+        padding-left: 10px;
+    }
+}
+
+
+/* TELA DE CELULAR GANDE */
+
+
+@media screen and (max-width: 375px) {
+    header {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .nautta {
+        top: 13px;
+        left: 5px;
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .search-box {
+        top: 15px;
+        height: 30px;
+        left: 105px;
+        width: 120px;
+        padding-left: 13px;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .loupe {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .search-text {
+        font-size: 10px;
+        padding-right: 7px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .perfil {
+        top: 11px;
+        width: 20px;
+        height: 20px;
+        padding-left: 1px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .entrar {
+        font-size: 9px;
+        top: 29px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .app, .baixe {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .carrinho {
+        left: 172px;
+        top: 11px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+/* TELA DE CELULAR PEQUENO */
+
+
+
+@media screen and (max-width: 320px) {
+    header {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nautta {
+        top: 10px;
+        left: 5px;
+        font-size: 22px;
+        letter-spacing: 1px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-box {
+        top: 13px;
+        height: 25px;
+        left: 100px;
+        width: 85px;
+        padding-left: 7px;
+        padding-right: 42px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .loupe {
+        width: 15px;
+        height: 15px;
+        padding-top: 2px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-text {
+        font-size: 8px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .perfil {
+        top: 9px;
+        width: 15px;
+        height: 15px;
+        left: 120px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .entrar {
+        font-size: 8px;
+        top: 24px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .app, .baixe {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .carrinho {
+        left: 148px;
+        top: 9px;
+        width: 15px;
+        height: 15px;
+    }
+}
