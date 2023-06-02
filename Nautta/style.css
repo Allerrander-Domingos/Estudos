@@ -183,26 +183,26 @@ header {
 
 @media screen and (max-width: 400px) {
     header {
-        padding: 25px;
+        padding: 30px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .nautta {
-        top: 10px;
+        top: 14px;
         left: 5px;
-        font-size: 22px;
+        font-size: 23px;
         letter-spacing: 1px;
-        color: rgb(0, 102, 255);    
+        color: rgb(0, 102, 255); 
     }
 }
 
 @media screen and (max-width: 400px) {
     .search-box {
         top: 13px;
-        height: 25px;
-        left: 100px;
-        width: 85px;
+        height: 35px;
+        left: 105px;
+        width: 100px;
         padding-left: 7px;
         padding-right: 42px;
     }
@@ -210,47 +210,57 @@ header {
 
 @media screen and (max-width: 400px) {
     .loupe {
-        width: 15px;
-        height: 15px;
+        width: 16px;
+        height: 16px;
         padding-top: 2px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .search-text {
-        font-size: 8px;
-        padding-right: 10px;
+        font-size: 10px;
+        padding-right: 0px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .perfil {
-        top: 9px;
-        width: 15px;
-        height: 15px;
-        left: 120px;
+        top: 10px;
+        width: 20px;
+        height: 20px;
+        left: 130px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .entrar {
-        font-size: 8px;
-        top: 24px;
-        padding-left: 20px;
+        font-size: 9px;
+        top: 28px;
+        left: 273px;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .app, .baixe {
+    .app {
+        display: block;
+        top: 10px;
+        left: 163px;
+        width: 27px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .baixe {
         display: none;
     }
 }
 
 @media screen and (max-width: 400px) {
     .carrinho {
-        left: 148px;
-        top: 9px;
-        width: 15px;
-        height: 15px;
+        left: 185px;
+        top: 10px;
+        width: 20px;
+        height: 20px;
     }
 }
