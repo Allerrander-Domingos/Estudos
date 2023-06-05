@@ -181,34 +181,34 @@ header {
 
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     header {
         padding: 30px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .nautta {
         top: 14px;
         left: 5px;
-        font-size: 24px;
+        font-size: 26px;
         letter-spacing: 1px;
-        color: rgb(18, 214, 0); 
+        color: rgb(214, 14, 0); 
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .search-box {
         top: 13px;
         height: 35px;
-        left: 110px;
+        left: 118px;
         width: 100px;
         padding-left: 7px;
-        padding-right: 47px;
+        padding-right: 56px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .loupe {
         width: 16px;
         height: 16px;
@@ -216,45 +216,45 @@ header {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .search-text {
         font-size: 10px;
-        padding-right: 0px;
+        padding-right: 12px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .perfil {
         top: 10px;
         width: 20px;
         height: 20px;
-        left: 136px;
+        left: 145px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .entrar {
         font-size: 9px;
         top: 28px;
-        left: 286px;
+        left: 303px;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .app {
         display: none;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .baixe {
         display: none;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 395px) {
     .carrinho {
-        left: 172px;
+        left: 180px;
         top: 10px;
         width: 20px;
         height: 20px;
