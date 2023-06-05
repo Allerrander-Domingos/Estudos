@@ -181,34 +181,34 @@ header {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     header {
         padding: 30px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .nautta {
         top: 14px;
         left: 5px;
-        font-size: 23px;
+        font-size: 24px;
         letter-spacing: 1px;
-        color: rgb(0, 102, 255); 
+        color: rgb(18, 214, 0); 
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .search-box {
         top: 13px;
         height: 35px;
-        left: 105px;
+        left: 110px;
         width: 100px;
         padding-left: 7px;
-        padding-right: 42px;
+        padding-right: 47px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .loupe {
         width: 16px;
         height: 16px;
@@ -216,49 +216,45 @@ header {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .search-text {
         font-size: 10px;
         padding-right: 0px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .perfil {
         top: 10px;
         width: 20px;
         height: 20px;
-        left: 130px;
+        left: 136px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .entrar {
         font-size: 9px;
         top: 28px;
-        left: 273px;
+        left: 286px;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .app {
-        display: block;
-        top: 10px;
-        left: 163px;
-        width: 27px;
-        height: 20px;
+        display: none;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .baixe {
         display: none;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     .carrinho {
-        left: 185px;
+        left: 172px;
         top: 10px;
         width: 20px;
         height: 20px;
