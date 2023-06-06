@@ -13,10 +13,10 @@ header {
     position: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     top: 14px;
-    left: 10px;
-    font-size: 30px;
+    left: 6px;
+    font-size: 25px;
     letter-spacing: 1px;
-    color: rgb(255, 131, 193); 
+    color: rgb(6, 168, 0);
 }
 
 .search-box {
@@ -40,15 +40,16 @@ header {
     background: none;
     border: 0;
     outline: 0;
-    font-size: 11px;
+    font-size: 10px;
+    font-weight: bolder;
 }
 
 .loupe {
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 19px;
+    height: 19px;
     
-    top: 10px;
+    top: 7px;
     right: 5px;
 }
 
