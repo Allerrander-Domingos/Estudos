@@ -10,12 +10,12 @@ header {
 }
 
 .nautta {
-    color: rgb(189, 0, 206);
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 14px;
     left: 6px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 1px;
 }
 
