@@ -15,7 +15,7 @@ header {
 
 .nautta {
     position: absolute;
-    color: rgb(185, 0, 0);
+    color: white;
     top: 4px;
     left: 38px;
     font-size: 50px;
@@ -96,7 +96,7 @@ header {
 }
 
 .nautta {
-    color: rgb(255, 255, 255);
+    color: rgb(235, 7, 7);
     position: absolute;
     top: 13px;
     left: 12px;
