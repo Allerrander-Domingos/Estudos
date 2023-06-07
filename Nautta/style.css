@@ -4,6 +4,92 @@
 }
 
 
+/*GRANDES TELAS*/
+
+
+
+header {
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.nautta {
+    position: absolute;
+    color: white;
+    top: 4px;
+    left: 38px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+.search-box {
+    position: absolute;
+    top: 20px;
+    left: 21%;
+    right: 32.50%;
+
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 17px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+}
+
+.search-text {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+}
+
+.perfil {
+    position: absolute;
+    left: 71%;
+    top: 12px;
+}
+
+.entrar {
+    color: white;
+    position: absolute;
+    left: 74%;
+    top: 5.50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.app {
+    position: absolute;
+    left: 81.60%;
+    top: 13px;
+}
+
+.baixe {
+    color: white;
+    position: absolute;
+    left: 84%;
+    top: 5.50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.carrinho {
+    position: absolute;
+    right: 13px;
+    top: 12px;
+}
+
+
+/*PEQUENAS TELAS*/
+
+
+@media screen and (max-width: 992px) {
 header {
     padding: 30px;
     background-color: rgb(0, 0, 0);
@@ -86,103 +172,6 @@ header {
     width: 20px;
     height: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media screen and (min-width: 992px) {
-
-header {
-    padding: 40px;
-    background-color: rgb(0, 0, 0);
 }
 
-.nautta {
-    position: absolute;
-    color: white;
-    top: 5px;
-    left: 38px;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 3px;
-    display: inline-block;
-}
 
-.search-box {
-    position: absolute;
-    top: 20px;
-    left: 21%;
-    right: 32.50%;
-
-    background-color: rgb(255, 255, 255);
-    height: 40px;
-    padding-left: 25px;
-    padding-right: 17px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-size: 16px;
-}
-
-.search-text {
-    background: none;
-    border: 0;
-    outline: 0;
-}
-
-.perfil {
-    position: absolute;
-    left: 71%;
-    top: 3.10%;
-}
-
-.entrar {
-    color: white;
-    position: absolute;
-    left: 74%;
-    top: 5.50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.app {
-    position: absolute;
-    left: 81.60%;
-    top: 4.10%;
-}
-
-.baixe {
-    color: white;
-    position: absolute;
-    left: 84%;
-    top: 5.50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.carrinho {
-    position: absolute;
-    left: 95%;
-    top: 4%;
-}
-}
