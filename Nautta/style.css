@@ -10,13 +10,13 @@ header {
 }
 
 .nautta {
+    color: rgb(189, 0, 206);
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     top: 14px;
     left: 6px;
-    font-size: 25px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
     letter-spacing: 1px;
-    color: rgb(186, 189, 0);
 }
 
 .search-box {
