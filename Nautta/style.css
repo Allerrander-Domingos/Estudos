@@ -12,8 +12,8 @@ header {
 .nautta {
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 14px;
-    left: 6px;
+    top: 13px;
+    left: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding-left: 7px;
+    padding-left: 11px;
     padding-right: 57px;
 }
 
