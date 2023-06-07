@@ -167,7 +167,7 @@ header {
 
 .carrinho {
     position: absolute;
-    left: 173px;
+    right: 5px;
     top: 10px;
     width: 20px;
     height: 20px;
