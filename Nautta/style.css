@@ -15,7 +15,7 @@ header {
 
 .nautta {
     position: absolute;
-    color: white;
+    color: rgb(185, 0, 0);
     top: 4px;
     left: 38px;
     font-size: 50px;
