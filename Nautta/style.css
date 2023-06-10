@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -173,11 +175,15 @@ header {
 }
 }
 
-#burguer {
+.burguer {
+    padding-top: 6px;
     padding-left: 100px;
-    padding-right: 5px;
-    text-decoration: none;
+    padding-right: 10px;
     color: black;
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .categorias {
@@ -207,3 +213,26 @@ ul, .categ {
     font-size: 17px;
     font-weight: bolder;
 }
+
+ table {
+    background-color: rgb(136, 136, 136);
+    position: absolute;
+    top: 21.48%;
+    left: 0px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ tr {
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+ td {
+
+ }
+ 
