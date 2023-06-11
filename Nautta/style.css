@@ -176,8 +176,8 @@ header {
 }
 
 .burguer {
-    padding-top: 6px;
-    padding-left: 100px;
+    margin-top: 6px;
+    margin-left: 100px;
     padding-right: 10px;
     color: black;
     
@@ -193,7 +193,7 @@ header {
     text-decoration: none;
     color: black;
     
-    padding-right: 100px;
+    margin-right: 100px;
 }
 
 nav {
@@ -208,40 +208,55 @@ ul, .categ {
     display: flex;
     list-style-type: none;
     text-decoration: none;
-    padding-right: 83px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     font-weight: bolder;
 }
 
+.categ {
+    margin-right: 95px;
+}
+
+.functions > ul > li {
+    background-color: gray;
+
+}
+
+.n1 {
+    display: flex;
+    margin-left: 107.86px;
+    margin-right: 107.80px;
+}
+
+
+
+/*
 table {
     background-color: rgb(136, 136, 136);
     position: absolute;
     top: 134px;
     left: 0px; 
-    width: 100%;
     padding: 7px;
     padding-bottom: 10px;
+    text-align: justify;
 }
 
 tr {
     
 }
 
-tr > a > th {
-
+th {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
-    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 td {
-    text-align: center;
     line-height: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;    
+    font-size: 17px;
 }
 
 th:hover {
-    background-color: red;
+    background-color: rgb(202, 202, 202);text-decoration: underline;
 }
