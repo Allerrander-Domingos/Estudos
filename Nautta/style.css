@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    user-select: none;
 }
 
 
@@ -196,6 +197,10 @@ header {
     margin-right: 100px;
 }
 
+.categorias:hover, a:hover {
+    text-decoration: underline;
+}
+
 nav {
     background-color: rgb(196, 196, 196);
     display: flex;
@@ -255,7 +260,12 @@ th {
     padding-bottom: 10px;
 }
 
-td {
-    color: rgb(56, 56, 56);
-    
+.fem1, .fem2, .fem3, .fem4, .fem5, .fem6, .fem7, .fem8, .fem9, .fem10, .fem11, .fem12, .fem13, .fem14, .fem15, .fem16, .fem17, .fem18, .fem19, .fem20, .fem21, .fem22, .fem23, .fem24, .fem25, .fem26{
+    color: rgb(36, 36, 36);
+    text-decoration: none;
 }
+
+.fem1:hover, .fem2:hover, .fem3:hover, .fem4:hover, .fem5:hover, .fem6:hover, .fem7:hover, .fem8:hover, .fem9:hover, .fem10:hover, .fem11:hover, .fem12:hover, .fem13:hover, .fem14:hover, .fem15:hover, .fem16:hover, .fem17:hover, .fem18:hover, .fem19:hover, .fem20:hover, .fem21:hover, .fem22:hover, .fem23:hover, .fem24:hover, .fem25:hover, .fem26:hover {
+    text-decoration: underline;
+}
+
