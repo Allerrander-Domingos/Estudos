@@ -96,7 +96,6 @@ header {
     
     background-color: transparent;
     border: none;
-    cursor: pointer;
 }
 
 .categorias {
@@ -108,6 +107,7 @@ header {
     background-color: transparent;
     color: black;
     margin-right: 100px;
+    cursor: pointer;
 }
 
 .categorias:hover, a:hover {
@@ -170,10 +170,6 @@ ul, .categ {
     display: none;
 }
 
-.infantil {
-    display: block;
-}
-
 th {
     color: rgb(0, 0, 0);
     text-align: justify;
@@ -181,7 +177,7 @@ th {
     padding-bottom: 10px;
 }
 
-.bel, .inf, .fem {
+.bel, .inf, .masc, .fem, .esp {
     color: rgb(36, 36, 36);
     text-decoration: none;
 }

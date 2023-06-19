@@ -21,7 +21,12 @@ btn.addEventListener('click', function() {
     }
 });
 
+btn.addEventListener('click', function() {
 
+    if(infantil.style.display === 'block') {
+    infantil.style.display = 'none';
+    }
+});
 
 var beleza = window.document.querySelector('.beleza')
 var infantil = window.document.querySelector('.infantil')
@@ -53,7 +58,7 @@ function entrar1() {
 }
 
 function entrar2() {
-    infantl.style.display = 'block'
+    infantil.style.display = 'block'
 }
 
 function entrar3() {
