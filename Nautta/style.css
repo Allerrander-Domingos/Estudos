@@ -160,7 +160,7 @@ ul, .categ {
     text-decoration: underline;
 }
 
-.feminino {
+.beleza, .infantil, .masculino, .feminino, .esporte {
     background-color: rgb(180, 180, 180); 
     padding: 15px;
     font-size: 22px;
@@ -170,6 +170,10 @@ ul, .categ {
     display: none;
 }
 
+.infantil {
+    display: block;
+}
+
 th {
     color: rgb(0, 0, 0);
     text-align: justify;
@@ -177,12 +181,12 @@ th {
     padding-bottom: 10px;
 }
 
-.fem{
+.bel, .inf, .fem {
     color: rgb(36, 36, 36);
     text-decoration: none;
 }
 
-.fem:hover {
+.bel:hover, .fem:hover {
     text-decoration: underline;
 }
 
