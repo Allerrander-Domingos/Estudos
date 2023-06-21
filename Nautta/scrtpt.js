@@ -28,6 +28,20 @@ btn.addEventListener('click', function() {
     }
 });
 
+btn.addEventListener('click', function() {
+
+    if(masculino.style.display === 'block') {
+    masculino.style.display = 'none';
+    }
+});
+
+btn.addEventListener('click', function() {
+
+    if(esporte.style.display === 'block') {
+    esporte.style.display = 'none';
+    }
+});
+
 var beleza = window.document.querySelector('.beleza')
 var infantil = window.document.querySelector('.infantil')
 var masculino = window.document.querySelector('.masculino')
