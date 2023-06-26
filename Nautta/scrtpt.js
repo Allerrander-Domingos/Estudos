@@ -69,20 +69,44 @@ esporte.addEventListener('mouseout', sair)
 function entrar1() {
     beleza.style.display = 'block'
 
+    infantil.style.display = 'none'
+    masculino.style.display = 'none'
+    feminino.style.display = 'none'
+    esporte.style.display = 'none'
 }
 
 function entrar2() {
     infantil.style.display = 'block'
+
+    beleza.style.display = 'none'
+    masculino.style.display = 'none'
+    feminino.style.display = 'none'
+    esporte.style.display = 'none'
 }
 
 function entrar3() {
     masculino.style.display = 'block'
+
+    beleza.style.display = 'none'
+    infantil.style.display = 'none'
+    feminino.style.display = 'none'
+    esporte.style.display = 'none'
 }
 
 function entrar4() {
     feminino.style.display = 'block'
+
+    beleza.style.display = 'none'
+    masculino.style.display = 'none'
+    infantil.style.display = 'none'
+    esporte.style.display = 'none'
 }
 
 function entrar5() {
     esporte.style.display = 'block'
+
+    beleza.style.display = 'none'
+    masculino.style.display = 'none'
+    feminino.style.display = 'none'
+    infantil.style.display = 'none'
 }
