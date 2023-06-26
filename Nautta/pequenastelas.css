@@ -1,4 +1,12 @@
+@charset "UTF-8";
+
 @media screen and (max-width: 992px) {
+    
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+
     header {
         padding: 30px;
         background-color: rgb(0, 0, 0);
@@ -80,5 +88,111 @@
         top: 10px;
         width: 20px;
         height: 20px;
+    }
+
+
+
+
+
+
+
+
+
+    .burguer {
+        margin-top: 6px;
+        margin-left: 0px;
+        padding-right: 0px;
+        color: black;
+        
+        background-color: transparent;
+        border: none;
+    }
+    
+    .categorias {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 10px;
+    
+        border: none;
+        background-color: transparent;
+        color: black;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    
+    .categorias:hover, a:hover {
+        text-decoration: underline;
+    }
+    
+    nav {
+        background-color: rgb(196, 196, 196);
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    ul, .categ {
+        color: black;
+        display: flex;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+        font-weight: bolder;
+    }
+    
+    .categ {
+        margin-right: 5px;
+    }
+    
+    .functions > ul > li {
+        background-color: gray;
+        padding: 10px;
+    }
+    
+    .functions {
+        display: none;
+    }
+    
+    .n1, .n2, .n3, .n4, .n5 {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 97.77px;
+        margin-right: 97.77px;
+    
+        color: black;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .n1:hover {
+        text-decoration: underline;
+    }
+    
+    .beleza, .infantil, .masculino, .feminino, .esporte {
+        background-color: rgb(180, 180, 180); 
+        padding: 15px;
+        font-size: 22px;
+        padding-left: 150px;
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: none;
+    }
+    
+    th {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        width: 9%;
+        padding-bottom: 10px;
+    }
+    
+    .bel, .inf, .masc, .fem, .esp {
+        color: rgb(36, 36, 36);
+        text-decoration: none;
+    }
+    
+    .bel:hover, .fem:hover {
+        text-decoration: underline;
     }
 }
